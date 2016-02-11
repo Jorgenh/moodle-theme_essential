@@ -31,6 +31,7 @@ $footerregion = essential_has_footer_region(); // In pagesettings.php.
 ?>
 
 <div id="page" class="container-fluid">
+  
     <?php require_once(\theme_essential\toolbox::get_tile_file('pagenavbar')); ?>
     <section role="main-content">
         <?php echo $OUTPUT->version_alert(); ?>
